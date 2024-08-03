@@ -1,0 +1,10 @@
+/**
+ * @name Bye, Discord Explorer!
+ * @description Hide the "Explore Discoverable Servers" icon
+ * @source https://github.com/Sitoor/byediscordcexplorer.git
+ * @author Sitor
+ */
+
+div[aria-label="Explore Discoverable Servers"] {
+    display: none !important;
+}
